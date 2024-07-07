@@ -1,0 +1,101 @@
+.section{
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px white solid;
+    position: fixed;
+    top: 0;
+    right: 25%;
+    bottom: 0;
+    left: 25%;
+    width: 500px;
+    overflow-y: scroll;
+}
+
+.section::-webkit-scrollbar {
+    background-color: black;
+    border-radius: 15px;
+    width: 10px;
+  }
+
+.section::-webkit-scrollbar-thumb{
+    background-color: #2271D1;
+    border-radius: 15px;
+}
+
+
+.cerrar{
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 329px;
+}
+
+.cerrar:hover{
+    transform: scale(1.1);
+}
+
+.title {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.button_container{
+    display: block;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.button{
+    height: 100%;
+    width: 100px;
+    margin: 10px;
+    background-color: transparent;
+    border: solid;
+    color: white;
+    border-radius: 10px;
+}
+
+.button:hover{
+    color: #2271D1;
+}
+
+@media (max-width: 768px){
+    .section{
+        width: 450px;
+        right: 5%;
+        left: 5%;
+    }
+
+    .cerrar{
+        top: 10px;
+        left: 50px;
+    }
+}
+@media (max-width: 480px){
+    .section{
+        width: 250px;
+        right: 5%;
+        left: 5%;
+        height: 77%;
+    }
+    .cerrar{
+        top: 10px;
+        left: 25px;
+        transform: scale(.9);
+    }
+
+    .cerrar:hover{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,88 @@
+.card{
+    margin: 30px 10px 30px 10px;
+    border: none;
+    height: 295px;
+    width: 500px;
+}
+
+.card:hover {
+    border: 6px solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.img{
+    border-radius: 15px 15px 0 0;
+    display: block;
+    object-fit: cover;
+    height: 250px;
+    width: 500px;
+}
+
+.card:hover .img{
+    height: 230px;
+    width: 488px;
+
+}
+
+.action{
+    padding: 5px 0 5px 0;
+    background-color: black;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 44.5px;
+    width: 500px;
+}
+
+.card:hover .action{
+    width: 488px;
+}
+
+.action button{
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action button img{
+    padding-right: 10px;
+    transform: scale(.8);
+}
+
+.action button:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .card{
+        width: 320px;
+        margin: 30px 12px 30px 12px;
+    }
+
+    .card:hover .img {
+        width: 309px;
+    }
+
+    .card:hover .action{
+        width: 309px;
+    }
+
+    .img{
+        width: 320px;
+    }
+
+    .action{
+        width: 320px;
+    }
+
+    .texto {
+        display: none;
+    }
+}

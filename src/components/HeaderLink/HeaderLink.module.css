@@ -1,0 +1,33 @@
+.container{
+    padding: 1em;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+}
+
+
+.button{
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border: solid;
+}
+
+.link {
+    
+    cursor: default;
+}
+
+.button:hover{
+    background-color: black;
+    border-color: #2271D1;
+    color: #2271D1;
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+.backgroundImage{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    background-repeat: repeat-y;
+}
+
+.container{
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    height: 70px;
+    width: 260px;
+    font-size: 40px;
+    border: solid;
+    border: none;
+    color: #F5F5F5;
+    border-radius: 5px;
+    padding: 0;
+    font-family: "Roboto", sans-serif ;
+    font-weight: bold;
+    background-color: gray;
+    margin: 10px;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    width: 700px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    border-radius: 15px;
+    box-shadow: 0, 10, 10, 0;
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+}
+
+.year{
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    border-radius: 15px;
+    box-shadow: 0, 10, 10, 0;
+}
+
+.info{  
+    display: flex;
+    flex-direction: column;
+}
+
+.description_container{
+    background-color: rgba(25, 25, 25, 0.5);
+    width: 700px;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0, 10, 10, 0;
+}
+
+.description{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.videoContainer{
+    padding-top: 30px;
+}
+
+@media (max-width: 768px){
+    .title, .description_container{
+        width: 500px;
+    }
+
+    .backgroundImage{
+        height: auto;
+    }
+
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+    .title, .description_container{
+        width: 300px;
+    }
+
+    
+
+    .videoContainer{
+        width: 100%;
+    }
+
+    .videoContainer iframe{
+        width: 100%;
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "categorias":[
+        {
+            "nombre": "SHONEN",
+            "color": "#6BD1FF",
+            "id": 1
+        },
+        {
+            "nombre": "SHOJO",
+            "color": "#00C86F",
+            "id": 2
+        },
+        {
+            "nombre": "SEINEN",
+            "color": "#FFBA05",
+            "id": 3
+        },
+        {
+            "nombre": "JOSEI",
+            "color": "#FFBA05",
+            "id": 4
+        }
+    ], 
+
+    "videos":[
+        {
+            "titulo": "ONE PIECE",
+            "categoria": "SHONEN",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/a249096c7812deb8c3c2c907173f3774.jpe",
+            "url": "https://www.youtube.com/watch?v=r6-12RevbUY&pp=ygUXb25lIHBpZWNlIGFuaW1lIHRyYWlsZXI%3D",
+            "descripcion": "Esta historia se sitúa en el momento más álgido de la Gran Era de los Piratas, cuando el joven Monkey D. Luffy quiere llegar a ser el Rey de los Piratas y hacerse al fin con un legendario tesoro, el One Piece.", 
+            "id": 1
+        },
+        {
+            "titulo": "FULLMETAL ALCHEMIST: BROTHERHOOD",
+            "categoria": "SHONEN",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/ac0052958fa876ed2ef926920a88ec75.jpe",
+            "url": "https://www.youtube.com/watch?v=kx0nBaS_q50&pp=ygUoRnVsbG1ldGFsIEFsY2hlbWlzdDogQnJvdGhlcmhvb2QgdHJhaWxlcg%3D%3D",
+            "descripcion": "Los hermanos Edward y Alphonse Elric continúan la búsqueda de la Piedra Filosofal con la esperanza de restaurar sus cuerpos, que se perdieron cuando intentaron utilizar sus habilidades en alquimia al tratar de resucitar a su madre fallecida.",
+            "id": 2
+        },
+        {
+            "titulo": "JUJUTSU KAISEN",
+            "categoria": "SHONEN",
+            "imagen": "https://a.storyblok.com/f/178900/1127x634/dc92f958af/05446e55072f7cb6e284dc8621f2822c1602263746_main.png/m/filters:quality(95)format(webp)",
+            "url": "https://www.youtube.com/watch?v=aPBUUJbrAWo&pp=ygUWanVqdXRzdSBrYWlzZW4gdHJhaWxlcg%3D%3D",
+            "descripcion": "Después de que Yuji Itadori se traga un talismán maldito, un dedo, él mismo se convierte en una maldición. Entonces se inscribe en una escuela de chamanes para encontrar los dedos restantes y eliminar la maldición.",
+            "id": 3
+        },
+        {
+            "titulo": "FRUITS BASKET",
+            "categoria": "SHOJO",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/0b3e72772a7af5d4d930cba863152fff.jpe",
+            "url": "https://www.youtube.com/watch?v=ARo7fMi5lBM&pp=ygUjZnJ1aXRzIGJhc2tldCAyMDAxIHRyYWlsZXIgZXNwYcOxb2w%3D",
+            "descripcion": "El huérfano Tohru Honda se muda con un compañero de clase y su familia embrujada.",
+            "id": 4
+        },
+        {
+            "titulo": "BANANA FISH",
+            "categoria": "SHOJO",
+            "imagen": "https://i.ytimg.com/vi/1luyTUfi8NM/sddefault.jpg",
+            "url": "https://www.youtube.com/watch?v=I7jlkh3i4nI&pp=ygUdYmFuYW5hIGZpc2ggdHJhaWxlciBlc3Bhw7FvbCA%3D",
+            "descripcion": "Un chico de 17 años, miembro importante de una pandilla callejera de Nueva York, es testigo de la muerte de un hombre y trata de encontrar el significado de sus últimas palabras.",
+            "id": 5
+        },
+        {
+            "titulo": "SAILOR MOON",
+            "categoria": "SHOJO",
+            "imagen": "https://m.media-amazon.com/images/I/8159SPRwcDS._AC_UF894,1000_QL80_.jpg",
+            "url": "https://www.youtube.com/watch?v=0y9buJ2A630",
+            "descripcion": "Una colegiala propensa a los problemas recibe la habilidad de transformarse en una poderosa heroína y reúne un equipo de amigos y aliados para luchar contra las fuerzas del mal que amenazan al mundo.",
+            "id": 6
+        },
+        {
+            "titulo": "PSYCHO-PASS",
+            "categoria": "SEINEN",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/7f3385228ae6e09172a4182614345054.jpe",
+            "url": "https://www.youtube.com/watch?v=YzuJnyebc40",
+            "descripcion": "En el futuro cercano, es posible medir el potencial de violencia de cada persona. La inspectora Akane Tsunemori es parte de una unidad especial que persigue a estos individuos potencialmente peligrosos.",
+            "id": 7
+        },
+        {
+            "titulo": "MONSTER",
+            "categoria": "SEINEN",
+            "imagen": "https://areajugones.sport.es/wp-content/uploads/2022/12/monster.jpg.webp",
+            "url": "https://www.youtube.com/watch?v=9aXTKhnockM",
+            "descripcion": "Un brillante neurocirujano se sumerge en un oscuro viaje mientras intenta resolver una serie de asesinatos que involucran a un paciente que salvó.",
+            "id": 8
+        },
+        {
+            "titulo": "DEATH PARADE",
+            "categoria": "SEINEN",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/989d5abf2f9e664a84def918db260644.jpe",
+            "url": "https://www.youtube.com/watch?v=YBcjwA-dX18",
+            "descripcion": "El bar Quindecim organiza un juego entre los recién fallecidos para decidir sobre el destino de sus almas.",
+            "id": 9
+        },
+        {
+            "titulo": "NANA",
+            "categoria": "JOSEI",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/ef215a1dd582ad5cc7a1f547ff5f931e.jpe",
+            "url": "https://www.youtube.com/watch?v=Tad-n4Xh3nI",
+            "descripcion": "Dos chicas con el mismo nombre se conocen en un tren rumbo a Tokio.",
+            "id": 10
+        },
+        {
+            "titulo": "YURI!!! ON ICE",
+            "categoria": "JOSEI",
+            "imagen": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/9b349ac725578034a1fce49fcea9bcfd.jpe",
+            "url": "https://www.youtube.com/watch?v=TJjj_OauGxo",
+            "descripcion": "Yuri Katsuki es un patinador artístico que, asumiendo las expectativas de todo Japón, experimentó una derrota aplastante. Al volver a su ciudad natal, en Kyushuu, sus sentimientos se debaten entre seguir patinando o retirarse.",
+            "id": 11
+        },
+        {
+            "titulo": "PRINCESS JELLYFISH",
+            "categoria": "JOSEI",
+            "imagen": "https://m.media-amazon.com/images/S/pv-target-images/b944e94f3de84d678ca7e6e971bbede43c5849ec7e1b0202accb460bd8dd7afa.jpg",
+            "url": "https://www.youtube.com/watch?v=sipUVHlDbgI",
+            "descripcion": "Kurashita Tsukimi queda fascinada por las medusas en un acuario al que su madre la lleva durante su infancia. Ella viene a Tokio desde Kagoshima con el sueño de convertirse en ilustradora.",
+            "id": 12
+        }
+    ]
+}

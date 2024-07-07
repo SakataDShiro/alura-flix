@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: white;
+}
+
+select {
+    width: 100%;
+    height: 57px;
+    background-color: gray;
+    padding: 18px 20px;
+    border: none;
+    outline-color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.select :disabled{
+    color: rgb(255, 255, 255)
+}

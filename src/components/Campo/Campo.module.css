@@ -1,0 +1,46 @@
+.campo {
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+}
+
+.campo label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: transparent;
+    color: white;
+}
+
+.campo input, .area {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    padding: 30px 20px;
+    outline-color: #ffffff;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+}
+
+.area{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    height: 150px;
+}
+
+.area::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder{
+    color: black;
+}
